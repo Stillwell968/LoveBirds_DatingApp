@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "424877393125",
+    "firebase_url": "https://usercreation-8781d.firebaseio.com",
+    "project_id": "usercreation-8781d",
+    "storage_bucket": "usercreation-8781d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424877393125:android:0e2208ba24d072811cc00c",
+        "android_client_info": {
+          "package_name": "bw.ac.biust.JS17000705"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424877393125-k1skto1krku1htutm2earki665fdjdp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiW4PjAhkUgC4kR_QmX7wpskwKerZxJU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424877393125-k1skto1krku1htutm2earki665fdjdp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424877393125:android:160b8f11bf1c228e1cc00c",
+        "android_client_info": {
+          "package_name": "bw.ac.biust.lovingbirds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424877393125-k1skto1krku1htutm2earki665fdjdp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiW4PjAhkUgC4kR_QmX7wpskwKerZxJU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424877393125-k1skto1krku1htutm2earki665fdjdp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424877393125:android:7a19beaecbf2d72c1cc00c",
+        "android_client_info": {
+          "package_name": "bw.ac.biust.tinderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424877393125-k1skto1krku1htutm2earki665fdjdp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiW4PjAhkUgC4kR_QmX7wpskwKerZxJU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424877393125-k1skto1krku1htutm2earki665fdjdp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

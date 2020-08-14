@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <ImageView
+        android:id="@+id/profile_img_frag"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:id="@+id/name_profile_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:id="@+id/phone_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:layout_marginBottom="20sp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/age_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_marginBottom="20sp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/location_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cuurent Location"
+        android:layout_marginBottom="20sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/description_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="About"
+        android:layout_marginBottom="20sp"
+        android:inputType="textAutoCorrect"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prefered Gender"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:textColor="#040303"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:layout_weight="0.5"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:layout_weight="0.5"/>
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirm_btn_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"/>
+
+
+    <ProgressBar
+        android:id="@+id/progress_load_frag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:visibility="invisible"/>
+
+</LinearLayout>
